@@ -188,6 +188,7 @@ div.text{
 div.text > .title{
     text-transform: uppercase;
     padding-bottom: 10px;
+    font-weight: 700;
 }
 
 .disclaimer_button > button{

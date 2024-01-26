@@ -94,6 +94,10 @@
     border-radius: 40px;
 }
 
+.login:hover , .subscribe:hover{
+  cursor: pointer;
+}
+
 
 .playlist-container{
     height: 68vh;
@@ -101,6 +105,12 @@
     margin: 10px;
     border-radius: 10px;
     background-color: #121212;
+}
+
+#greeting{
+  color: white;
+  padding-bottom: 10px;
+  font-size: 1.5rem;
 }
 
 .playlist{

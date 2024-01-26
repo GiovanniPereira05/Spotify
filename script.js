@@ -33,3 +33,15 @@ document.addEventListener('input', function(){
     requestApi(searchTerm);
 });
 
+function carregar(){
+var msg = document.getElementById('greeting')
+var data = new Date()
+var hora = data.getHours()
+if (hora < 12 && hora >= 6){
+    msg.innerHTML = "Bom dia"
+} else if (hora >= 12 && hora < 18){
+    msg.innerHTML = "Boa tarde"
+} else {
+        msg.innerHTML = "Boa noite"
+}
+}

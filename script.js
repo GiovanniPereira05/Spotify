@@ -34,9 +34,9 @@ document.addEventListener('input', function(){
 });
 
 function changeGreeting(){
-var msg = document.getElementById('greeting')
-var data = new Date()
-var hora = data.getHours()
+let msg = document.getElementById('greeting')
+let data = new Date()
+let hora = data.getHours()
 if (hora < 12 && hora >= 6){
     msg.innerHTML = "Bom dia"
 } else if (hora >= 12 && hora < 18){
